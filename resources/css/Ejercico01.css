@@ -1,0 +1,25 @@
+form{
+    border: solid black 1.5px;
+    max-width: 400pt;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    display: flex;
+    text-align: center;
+}
+
+button{
+    align-self: middle;
+    width: 60pt;
+    height: 30pt;
+    color: white;
+    background-color: orange;
+    border-color: orange;
+    text-align: middle;
+}
