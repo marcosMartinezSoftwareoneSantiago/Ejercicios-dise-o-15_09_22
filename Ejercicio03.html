@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='title' content='Ejercicio 3'>
+    <meta name='description' content='Ejercicio 3'>
+    <meta name='author' content='Marcos Martinez'>
+    <meta name='language' content='es'>
+    <meta name='owner' content='SoftwareOne'>
+    <link href='resources/css/Ejercico03.css' type='text/css' rel='stylesheet' charset='utf-8'>
+    <title>Ejercicio</title>
+</head>
+
+<body>
+    <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>Nombre:</p>
+                <input type="text" name="nombre">
+                <p>Edad:</p>
+                <input type="text" name="edad">
+                <p>Dirección:</p>
+                <input type="text" name="direccion">
+            </fieldset>
+        <br>
+        <fieldset>
+            <legend class="distinto">Datos de tu ordenador</legend>
+            <p>Modelo de ordenador:</p>
+            <input type="text" name="modelo">
+            <br>
+            <br>
+            <label>Sistema que te da el problema
+                <select name="problema">
+                    <option value="1">CPU</option>
+                    <option value="2">RAM</option>
+                    <option value="3">Disco duro</option>
+                </select>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="distinto">Descripción del problema</legend>
+            <textarea></textarea><br>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

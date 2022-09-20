@@ -1,0 +1,15 @@
+h1,p{
+    text-align: center;
+}
+
+hr{
+    border: solid black 1.5px;
+    width: 60%;
+}
+
+.miDiv{
+    margin: auto;
+    width: 26%;
+    padding: 15pt;
+    border: dotted black 1.5px;
+}

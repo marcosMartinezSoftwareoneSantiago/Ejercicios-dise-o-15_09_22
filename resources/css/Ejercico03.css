@@ -1,0 +1,36 @@
+.distinto{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+fieldset{
+    text-align: left;
+    margin-left:1.5%;
+    margin-right: 1.5%;
+    border: solid black 1pt;
+}
+
+legend{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input{
+    margin-left:1%;
+    width: 98%;
+}
+
+p, h2,h3, label{
+    margin-left: 1%;
+}
+textarea{
+    width: 98%;
+    height: 150pt;
+    margin: 1%;
+}
+
+button{
+    margin-left: 1.5%;
+    height: 30pt;
+    width: 50pt;
+}
