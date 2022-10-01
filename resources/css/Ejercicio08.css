@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(100, 149, 237);
+}
+
+.hoja{
+    background-color: rgb(255, 255, 255);
+    color: rgb(128, 128, 128);
+    text-align: center;
+    height: 600px;
+    width: 400px;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+    top: 30px;
+}
+
+.sombreado{
+    background-color: rgb(233, 233, 233);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif
+}
+
+.rectangulazao{
+    border-radius: 5px;
+    width: 340px;
+    height: 20px;
+}
+
+.circulo{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.rectangulito{
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+}
